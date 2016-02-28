@@ -30,18 +30,20 @@ bind(player_command, null, null, @e,
 								
 								}else if(!@loc == _int_cmd(ploc(player()))){
 								
-									msg(colorize("&c¿òÁ÷ÀÌ¼Å¼­ Ãë¼ÒµÇ¾ú½À´Ï´Ù."))
+									msg(colorize("&cì›€ì§ì´ì…”ì„œ ì·¨ì†Œë˜ì—ˆìŠµë‹ˆë‹¤."))
 									@cool = false
 								
 								}else{
 								
-									msg(colorize("&c¸í·É¾î »ç¿ë±îÁö &f" .@cool "&cÃÊ ³²¾Ò½À´Ï´Ù."))
+									msg(colorize("&cëª…ë ¹ì–´ ì‚¬ìš©ê¹Œì§€ &f" .@cool "&cì´ˆ ë‚¨ì•˜ìŠµë‹ˆë‹¤."))
 								
 								}
 							
 							}))
 						
 						}
+						
+						break()
 					
 					}
 				
